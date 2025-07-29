@@ -1,4 +1,4 @@
-package aula69;
+package aula70;
 
 public class MinhaThreadRunnable implements Runnable {
 

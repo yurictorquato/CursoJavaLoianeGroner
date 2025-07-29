@@ -1,6 +1,6 @@
 package aula69;
 
-public class Teste {
+public class Teste2 {
 
     public static void main(String[] args) {
 
@@ -16,7 +16,7 @@ public class Teste {
         thread1.start();
         thread2.start();
 
-        for (int i = 0; i < 14; i++) {
+        while (thread.isAlive() || thread1.isAlive() || thread2.isAlive()) {
             try {
                 Thread.sleep(200);
             } catch (InterruptedException e) {
